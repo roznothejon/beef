@@ -59,11 +59,12 @@ a:hover {
 
 .caracteristici{
     padding-top: 50px;
-    padding-bottom: 50px;
+    padding-bottom: 0px;
     background-color: lightgray;
     display: flex;
     justify-content: space-evenly;
     box-sizing: border-box;
+	
 }
 
 h4,
@@ -182,4 +183,11 @@ background-color:cornflowerblue;
         width:100%;
     }
 
+}
+
+.mainarea{
+	height: 97%;
+	display:flex;
+	flex-direction:column;
+	justify-content: space-between;
 }
