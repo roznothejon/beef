@@ -13,30 +13,36 @@
     
     <div class="bara">
         <ul class="meniu">
-            <li><a href="index.html">acasa</a></li>
-            <li><a href="huh-cool.html">lucruri care mi se par interesante</a></li>
-            <li><a href="despre-mine.html">despre mine</a></li>
-            <li><a href="proiecte.html">proiecte</a></li>
+            <li><a href="index.html">Acasă</a></li>
+            <li><a href="huh-cool.html">Lucruri care mi se par interesante</a></li>
+            <li><a href="despre-mine.html">Despre mine</a></li>
+            <li><a href="proiecte.html">Proiecte</a></li>
             <li><a href="https://en.wikipedia.org/wiki/Special:Random">Articol random de pe Wikipedia :D</a></li>
             <div class="spacer"></div>
-            <div class="phone"><a>✆</a></div>
+            <div class="phone"><a onclick="nemaCartela()">✆</a></div>
     
     
         </ul>
     
     </div>
     
-    <div class="mainarea-mainpage">
+    <script> 
+        function nemaCartela(){
+            alert("nu mai am minute sorry");}
+        
+    </script>
+
+    <div class="mainarea-fullpage">
     <div class="general">
         <h1 class="titlu">Eu sunt Radu.</h1>
         <img src="sus.png" alt="hmm" style="display:block; height:150px; margin-left:auto; margin-right:auto"> 
-        <h2 class="subtitlu">Acesta e un site despre mine si chestiile care ma intereseaza</h2>
+        <h2 class="subtitlu">Acesta e un site despre mine si chestiile care mă interesează</h2>
         <p class="paragraf">
-            Ma pasioneaza informatica, plantele si sportul. Aici voi incarca proiecte si alte lucruri relevante in viitor. Deocamdata site-ul este inca in lucru.
+            Mă pasionează informatica, plantele și sportul. Aici voi încărca proiecte și alte lucruri relevante în viitor. Deocamdată site-ul este încă în lucru.
         </p>
         <div class="butoane" >
             <button type="button" onclick="window.location.href='https://github.com/roznothejon';">github</button>
-            <button type="button" onclick="window.location.href='https://roznothejon.github.io';">vizioneaza acest site online</button>
+            <button type="button" onclick="window.location.href='https://roznothejon.github.io';">vizionează acest site online</button>
         </div>
     </div>
 
@@ -45,20 +51,20 @@
         
         <div class="element e1">
             <div class="rs s1"></div>
-            <h4>lorem ipsum</h4>
-            <p class="par">lorem ipsum</p>
+            <h4>Calculatoare</h4>
+            <p class="par">Instalare Windows 50 de lei</p>
         </div>
 
         <div class="element e2">
             <div class="rs s2"></div>
-            <h4>lorem ipsum</h4>
-            <p class="par">lorem ipsumm</p>
+            <h4>Cafeluță</h4>
+            <p class="par">Nu funcționez fără</p>
         </div>
 
         <div class="element e3">
             <div class="rs s3"></div>
-            <h4>lorem ipsum</h4>
-            <p class="par">lorem ipsum</p>
+            <h4>Gaming</h4>
+            <p class="par">Sunt mare jucător</p>
         </div>
 
     </div>
@@ -68,15 +74,15 @@
     <div class="footer">
         
 
-        <form class="formular" action="action.php" method="post">
-            <label for="idfk">sugestii? pareri? lasa-le aici si poate ma uit la ele</label>
+        <form class="formular"> <!-- in loc de asta venea asta: <form class="formular" action="action.php" method="post">  daca mergea php pe pages -->
+            <label for="idfk">Sugestii? Păreri? Lasă-le aici și poate mă uit la ele: </label>
             <input type="text" name="sugestie">
             <input type="submit" value="submit">
 
         </form>
 
         <p class="copyright">
-            lorem ipsum
+            N-ai ce face cu banii? <a href="https://www.buymeacoffee.com/radurozno" style="color:blue">Ia-mi o cafea!</a>
         </p>
 
 

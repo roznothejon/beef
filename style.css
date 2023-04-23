@@ -97,21 +97,21 @@ h4,
 }
 
 .s1{
-    background-image: url("pic1.jpg");
+    background-image: url("computer.jpeg");
     background-position: center; 
     background-repeat: no-repeat; 
     background-size: cover; 
 }
 
 .s2{
-    background-image: url("pic2.jpg");
+    background-image: url("cafea.jpeg");
     background-position: center; 
     background-repeat: no-repeat; 
     background-size: cover; 
 }
 
 .s3{
-    background-image: url("pic3.jpg");
+    background-image: url("gaming.jpg");
     background-position: center; 
     background-repeat: no-repeat; 
     background-size: cover; 
@@ -186,7 +186,7 @@ background-color:cornflowerblue;
 
 }
 
-.mainarea-mainpage{
+.mainarea-fullpage{
 	height: 97%;
 	display:flex;
 	flex-direction:column;
