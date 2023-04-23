@@ -50,11 +50,12 @@ a:hover {
     padding-bottom: 50px;
     max-width: 600px;
     margin: 0 auto;
-}
+    
+    }
 
 .butoane{
     display: flex;
-    justify-content: center;;
+    justify-content:space-evenly;;
 }
 
 .caracteristici{
@@ -132,8 +133,8 @@ h4,
 
 .footer{
     background-color: gray;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .footer>img{
@@ -185,8 +186,15 @@ background-color:cornflowerblue;
 
 }
 
-.mainarea{
+.mainarea-mainpage{
 	height: 97%;
+	display:flex;
+	flex-direction:column;
+	justify-content: space-between;
+}
+
+.mainarea{
+	
 	display:flex;
 	flex-direction:column;
 	justify-content: space-between;
