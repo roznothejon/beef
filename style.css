@@ -98,21 +98,21 @@ h4,
 }
 
 .s1{
-    background-image: url("computer.jpeg");
+    background-image: url("pics/computer.jpeg");
     background-position: center; 
     background-repeat: no-repeat; 
     background-size: cover; 
 }
 
 .s2{
-    background-image: url("cafea.jpeg");
+    background-image: url("pics/cafea.jpeg");
     background-position: center; 
     background-repeat: no-repeat; 
     background-size: cover; 
 }
 
 .s3{
-    background-image: url("gaming.jpg");
+    background-image: url("pics/gaming.jpg");
     background-position: center; 
     background-repeat: no-repeat; 
     background-size: cover; 
